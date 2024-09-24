@@ -521,6 +521,7 @@ main .recent-orders a {
 .right .sales-analytics .add-product:hover {
     background: var(--color-primary);
     color: white;
+    cursor: pointer;
 }
 
 .right .sales-analytics .add-product div {
