@@ -534,6 +534,34 @@ main .recent-orders a {
     font-weight: 600;
 }
 
+/* ============ ORDERS ========== */
+
+.menu-items {
+    position: fixed; 
+    top: 5rem;
+    left: 16rem;
+    z-index: 1000; 
+    padding: 4rem 2rem; 
+}
+
+.menu-items ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 25rem;
+}
+
+.menu-items ul li {
+    background-color:var(--color-background); 
+    padding: 10px 20px;
+    text-decoration-color: white;
+    border-radius: 5px; 
+    display: inline-block; 
+    cursor: pointer; 
+}
+
 /* =================== MEDIA QUERIES  =================== */
 @media screen and (max-width: 1200px) {
    .container {
@@ -676,8 +704,9 @@ main .recent-orders a {
 
     .right .top .theme-toggler {
         width: 4.4rem;
-        position: absolute;
         left: 66%;
+        z-index: 1100;
+        position: relative;
     }
 
     .right .profile .info {
