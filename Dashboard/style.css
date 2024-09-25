@@ -562,6 +562,19 @@ main .recent-orders a {
     cursor: pointer; 
 }
 
+.chart-container-flex {
+    position: relative; 
+  }
+  
+  .chart-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+  }
+
+  
 /* =================== MEDIA QUERIES  =================== */
 @media screen and (max-width: 1200px) {
    .container {
