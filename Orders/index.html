@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" rel="stylesheet">
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="../Dashboard/style.css">
+    <link rel="stylesheet" href="../Orders/index.sql">
 </head>
 <body>
     <div class="container">
@@ -99,6 +100,24 @@
       </div>
     </div>
 
+    <nav>
+        <ul>
+            <li><a href="LT.php">Bestellingen</a></li>
+            <li><a href="Oude Bestellingen.php">Oude Bestelling</a></li>
+            <li><a href="#">Menu Beheren</a></li>
+        </ul>
+    </nav>    
+
+    <div class="container">
+    <div class="header-container">
+        <h1>kitchen display</h1>
+    </div>
+        <div id="orders">
+            <!-- Orders will be dynamically loaded here -->
+        </div>
+
+    </div>
+    <script src="../Orders/index.js"></script>
     <script src="../Dashboard/index.js"></script>
     <script src="../Analytics/Voedsel.script.js"></script>
 </body>
